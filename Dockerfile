@@ -3,7 +3,7 @@ LABEL maintainer="MOSARIAPPAPI"
 
 ENV PYTHONUNBUFFERED 1
 
-COPY ./requirements.txt /tmp/requirements.txt
+COPY ./requirements.txt /requirements.txt
 
 RUN pip install -r /requirements.txt
 
